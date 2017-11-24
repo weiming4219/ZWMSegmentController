@@ -14,6 +14,12 @@
 		7C8F8E311FC6BB7B004ED05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F8E2F1FC6BB7B004ED05D /* LaunchScreen.storyboard */; };
 		7C8F8E341FC6BB7C004ED05D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E331FC6BB7C004ED05D /* main.m */; };
 		7C8F8E3E1FC6BB7C004ED05D /* ZWMSegmentControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E3D1FC6BB7C004ED05D /* ZWMSegmentControllerUITests.m */; };
+		7C8F8E4A1FC6BBCA004ED05D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E491FC6BBCA004ED05D /* FirstViewController.m */; };
+		7C8F8E4E1FC6BBF9004ED05D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E4D1FC6BBF9004ED05D /* SecondViewController.m */; };
+		7C8F8E511FC6BC0D004ED05D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E501FC6BC0D004ED05D /* ThirdViewController.m */; };
+		7C8F8E541FC6BC69004ED05D /* ZWMSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E531FC6BC69004ED05D /* ZWMSegmentController.m */; };
+		7C8F8E571FC6BCEA004ED05D /* ZWMSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E561FC6BCEA004ED05D /* ZWMSegmentView.m */; };
+		7C8F8E5A1FC6BD35004ED05D /* UIView+ZWMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F8E591FC6BD35004ED05D /* UIView+ZWMBadge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,19 @@
 		7C8F8E391FC6BB7C004ED05D /* ZWMSegmentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWMSegmentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8F8E3D1FC6BB7C004ED05D /* ZWMSegmentControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentControllerUITests.m; sourceTree = "<group>"; };
 		7C8F8E3F1FC6BB7C004ED05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8F8E481FC6BBCA004ED05D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7C8F8E491FC6BBCA004ED05D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7C8F8E4C1FC6BBF9004ED05D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7C8F8E4D1FC6BBF9004ED05D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7C8F8E4F1FC6BC0D004ED05D /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7C8F8E501FC6BC0D004ED05D /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7C8F8E521FC6BC69004ED05D /* ZWMSegmentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentController.h; sourceTree = "<group>"; };
+		7C8F8E531FC6BC69004ED05D /* ZWMSegmentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentController.m; sourceTree = "<group>"; };
+		7C8F8E551FC6BCEA004ED05D /* ZWMSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentView.h; sourceTree = "<group>"; };
+		7C8F8E561FC6BCEA004ED05D /* ZWMSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentView.m; sourceTree = "<group>"; };
+		7C8F8E581FC6BD35004ED05D /* UIView+ZWMBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWMBadge.h"; sourceTree = "<group>"; };
+		7C8F8E591FC6BD35004ED05D /* UIView+ZWMBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWMBadge.m"; sourceTree = "<group>"; };
+		7CDBE1BA1FC7B889007AC7F8 /* segment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = segment.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +100,21 @@
 		7C8F8E231FC6BB78004ED05D /* ZWMSegmentController */ = {
 			isa = PBXGroup;
 			children = (
+				7C8F8E4B1FC6BBD9004ED05D /* ZWMSegment */,
 				7C8F8E241FC6BB79004ED05D /* AppDelegate.h */,
 				7C8F8E251FC6BB79004ED05D /* AppDelegate.m */,
 				7C8F8E271FC6BB7A004ED05D /* ViewController.h */,
 				7C8F8E281FC6BB7A004ED05D /* ViewController.m */,
+				7C8F8E481FC6BBCA004ED05D /* FirstViewController.h */,
+				7C8F8E491FC6BBCA004ED05D /* FirstViewController.m */,
+				7C8F8E4C1FC6BBF9004ED05D /* SecondViewController.h */,
+				7C8F8E4D1FC6BBF9004ED05D /* SecondViewController.m */,
+				7C8F8E4F1FC6BC0D004ED05D /* ThirdViewController.h */,
+				7C8F8E501FC6BC0D004ED05D /* ThirdViewController.m */,
 				7C8F8E2A1FC6BB7A004ED05D /* Main.storyboard */,
 				7C8F8E2D1FC6BB7B004ED05D /* Assets.xcassets */,
 				7C8F8E2F1FC6BB7B004ED05D /* LaunchScreen.storyboard */,
+				7CDBE1BA1FC7B889007AC7F8 /* segment.gif */,
 				7C8F8E321FC6BB7B004ED05D /* Info.plist */,
 				7C8F8E331FC6BB7C004ED05D /* main.m */,
 			);
@@ -101,6 +128,19 @@
 				7C8F8E3F1FC6BB7C004ED05D /* Info.plist */,
 			);
 			path = ZWMSegmentControllerUITests;
+			sourceTree = "<group>";
+		};
+		7C8F8E4B1FC6BBD9004ED05D /* ZWMSegment */ = {
+			isa = PBXGroup;
+			children = (
+				7C8F8E521FC6BC69004ED05D /* ZWMSegmentController.h */,
+				7C8F8E531FC6BC69004ED05D /* ZWMSegmentController.m */,
+				7C8F8E551FC6BCEA004ED05D /* ZWMSegmentView.h */,
+				7C8F8E561FC6BCEA004ED05D /* ZWMSegmentView.m */,
+				7C8F8E581FC6BD35004ED05D /* UIView+ZWMBadge.h */,
+				7C8F8E591FC6BD35004ED05D /* UIView+ZWMBadge.m */,
+			);
+			path = ZWMSegment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8F8E4E1FC6BBF9004ED05D /* SecondViewController.m in Sources */,
 				7C8F8E291FC6BB7A004ED05D /* ViewController.m in Sources */,
+				7C8F8E511FC6BC0D004ED05D /* ThirdViewController.m in Sources */,
 				7C8F8E341FC6BB7C004ED05D /* main.m in Sources */,
+				7C8F8E5A1FC6BD35004ED05D /* UIView+ZWMBadge.m in Sources */,
 				7C8F8E261FC6BB79004ED05D /* AppDelegate.m in Sources */,
+				7C8F8E541FC6BC69004ED05D /* ZWMSegmentController.m in Sources */,
+				7C8F8E4A1FC6BBCA004ED05D /* FirstViewController.m in Sources */,
+				7C8F8E571FC6BCEA004ED05D /* ZWMSegmentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 345KV6SH8T;
 				INFOPLIST_FILE = ZWMSegmentController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zingrow.ZWMSegmentController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 345KV6SH8T;
 				INFOPLIST_FILE = ZWMSegmentController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zingrow.ZWMSegmentController;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -3,7 +3,7 @@
 //  ZWMSegmentControllerUITests
 //
 //  Created by 伟明 on 2017/11/23.
-//  Copyright © 2017年 com.zhongzhou. All rights reserved.
+//  Copyright © 2017年 伟明. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
